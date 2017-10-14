@@ -2,12 +2,12 @@
 # shell to start up xvr nmt train process
 python -m nmt.nmt \
     --src=en  --tgt=zh \
-    --vocab_prefix=/data/nlp/challenger.ai/xvr_data/vocab \
-    --train_prefix=/data/nlp/challenger.ai/xvr_data/aimt.train \
-    --dev_prefix=/data/nlp/challenger.ai/xvr_data/aimt.validation \
-    --test_prefix=/data/nlp/challenger.ai/xvr_data/aimt.test \
-    --out_dir=/data/nlp/challenger.ai/xvr_model \
-    --num_train_steps=10000 \
+    --vocab_prefix=/home/aimt_data/vocab \
+    --train_prefix=/home/aimt_data/train \
+    --dev_prefix=/home/aimt_data/valid \
+    --test_prefix=/home/aimt_data/test_a \
+    --out_dir=/home/aimt_model_nmt_1015 \
+    --num_train_steps=800000 \
     --steps_per_stats=100 \
     --num_layers=2 \
     --num_units=128 \
