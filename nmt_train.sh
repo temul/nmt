@@ -6,7 +6,7 @@ python -m nmt.nmt \
     --train_prefix=/home/aimt_data/train \
     --dev_prefix=/home/aimt_data/valid \
     --test_prefix=/home/aimt_data/test_a \
-    --out_dir=/home/aimt_model_nmt_1015 \
+    --out_dir=/home/aimt_model/nmt_1015 \
     --num_train_steps=800000 \
     --steps_per_stats=100 \
     --num_layers=2 \
